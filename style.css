@@ -1,0 +1,152 @@
+body {
+    background-color: #F9F1ED;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #2B3C47;
+    padding: 1.5em;
+    margin-bottom: 10%; /*Espaço entre o cabeçalho e a próxima parte da página*/
+}
+
+.nome {
+    color: #E0954B;
+    text-decoration: underline;
+    font-size: 4.5em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none; /*Retirar o ponto que é colocado antes dos itens da lista*/
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #EBDEC7;
+}
+
+.menu > li > a:hover {
+    color: #E0954B; /*Quando o cursor passar pelo link, a cor mudará para esse tom*/
+}
+
+.destaque {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #ADE0DF;
+    padding: 3rem;
+}
+
+.destaque h2 {
+    text-align: center;
+    font-size: 4em;
+    color: #E0954B;
+}
+
+.produtos_destaque {   
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    align-content: end;
+}
+
+.produtos_destaque > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    flex-wrap: wrap;
+    border-radius: 10px; /*Arredondar as bordas dos containers de produtos*/
+    width: 15%;
+    
+}
+
+.produtos_destaque div img {
+    display: block; 
+    margin: auto; /*Alinhar a imagem ao centro*/
+}
+
+.produtos_destaque div p {
+    text-align: center;
+}
+
+.propaganda-site {
+    margin-top: 10%; /*Espaço entre as imagens e outras partes da página*/
+    margin-bottom: 10%;
+}
+
+.img-tinta {
+    display: flex;
+    flex-direction: row; /*Mudar o eixo principal do container flex*/
+    margin-bottom: 10%;
+}
+
+.tinta-verde {
+    position: relative; 
+    width: 100%;
+    height: 50%;
+}
+
+.img-tinta > .toque-de-cor {
+    position: absolute;
+    right: 65%;
+    left: 15%;
+    margin-top: 7%;
+    z-index: 1; /*Faz com que o texto fique a frente da imagem*/
+    font-size: 3.5em;
+    font-weight: bolder; /*Destaca o texto*/
+}
+
+.paleta-e-texto {
+    display: flex;
+    margin-top: 10%;
+}
+.paleta-e-texto .texto-paleta {
+    position: absolute;
+    left: 65%;
+    right: 15%;
+    text-align: right;
+    margin-top: 7%;
+    z-index: 1;
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: black;
+}
+
+.paleta-cores {
+    width: 100%;
+    height: 50%;
+}
+
+.secao-contato {
+    background-color: #2B3C47;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.secao-contato p {
+    padding-left: 5%;
+}
+
+.secao-contato h3 {
+    color: #F9F1ED;
+    padding-left: 5%;
+    text-decoration: underline;
+}
+
+.secao-contato a:hover {
+   color: #E0954B;
+}
+
+footer {
+    background-color: #2B3C47;
+    color:#E0954B;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer p {
+    padding-left: 5%;
+}

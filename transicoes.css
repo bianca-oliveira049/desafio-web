@@ -1,0 +1,8 @@
+html {
+    scroll-behavior: smooth; /*Deixa a transição entre partes da página mais suave*/
+}
+
+.produtos_destaque > div:hover {
+    transition: transform(1s);
+    transform: translateX(5px) scale(1); /*Cria uma mudança sutil na posição do container de produto, quando passamos o cursor por ele*/
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Tintas</title>
+    <link href="pagina-css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="pagina-css/media-query.css">
+    <link rel="stylesheet" href="pagina-css/transicoes.css">
+</head>
+<body>
+    <header>
+        <h1 class="nome">Color Tintas</h1>
+        <nav>
+            <ul class="menu"> <!--Barra de navegação com redirecionamento para outras partes da página-->
+                <li><a href="http://127.0.0.1:5500/home.html" class="home">Home</a></li> 
+                <li><a href="#destaque" class="produtos">Produtos</a></li>
+                <li><a href="#rodape" class="sobre">Sobre nós</a></li>
+                <li><a href="#secao-contato" class="contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="destaque" id="destaque"> <!--Container com os produtos fictícios da página-->
+            <h2 class="titulo-destaque">Produtos em destaque</h2>
+            <section class="produtos_destaque">
+                <div>
+                    <div class="img-p1">
+                        <img class="tinta-pequena" src="Imagens/tinta-pequena-cores.jpg" alt="Baldes de tinta. Fonte: https://br.freepik.com/fotos-gratis/pintura-de-homem-close-up-com-escova-de-rolo_6402456.htm#fromView=search&page=1&position=12&uuid=fd57f979-ef5f-4710-aaba-58856b67c33c">
+                    </div>
+                    <div class="texto-p1">
+                        <p>Balde de tinta brilho cores 3,6L</p>
+                        <p>R$60,00</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-p2">
+                        <img class="rolo-tinta" src="Imagens/rolo-tinta.jpg" alt="Rolo de tinta">
+                    </div>
+                    <div class="texto-p2">
+                        <p>Rolo de lã 23 cm</p>
+                        <p>R$25,00</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-p3">
+                        <img class="fundo-prep" src="Imagens/fundo-prep.jpg" alt="Fundo preparador de paredes. Fonte: https://br.freepik.com/psd-gratuitas/mock-se-modelo-recipiente-de-balde-de-banheira-de-plastico_7043424.htm#fromView=search&page=1&position=1&uuid=2239ab8e-7932-47cb-b298-0b8cae4086e6">
+                    </div>
+                    <div class="texto-p3">
+                        <p>Fundo preparador de paredes 15L</p>
+                        <p>R$80,00</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article class="propaganda-site"> <!--Simula frases de convencimento de anúncios-->
+            <section class="img-tinta">
+                <p class="toque-de-cor">Sua casa merece um toque de cor</p>
+                <img class="tinta-verde" src="Imagens/balde-tinta-verde.jpg" alt="Balde de tinta verde e rolo de tinta. Fonte: https://br.freepik.com/fotos-gratis/variedade-de-itens-de-pintura-com-tinta-verde_30124235.htm#fromView=search&page=1&position=6&uuid=b5fc8116-19bd-42b5-a7a5-b6868fc05e32">
+            </section>
+            <section class="paleta-e-texto">
+                <p class="texto-paleta">Encontre aqui a tonalidade que mais combina com o seu ambiente</p>
+                <img class="paleta-cores" src="Imagens/paleta_de_cores.jpg" alt="Paleta de cores">
+            </section>
+        </article>
+        <article>
+            <section id="secao-contato" class="secao-contato"> <!--Simula formas de contato com a empresa-->
+                <h3>Precisa de ajuda?</h3>
+                <p><a href="https://www.whatsapp.com/?lang=pt_BR">Entre em contato conosco pelo Whatsapp!</a></p>
+                <p><a href="http://127.0.0.1:5500/home.html">Ou através da nossa central de atendimento: 0800 000 0000</a></p>
+            </section>
+        </article>
+    </main>
+    <footer id="rodape"><!--Rodapé com nome e PDITA-->
+        <p>Feito por: Bianca Karen Dias OLiveira</p>
+        <p>PDITA: 049</p>
+    </footer>
+</body>
+</html>
